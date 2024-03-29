@@ -1,6 +1,6 @@
 {
     "name": "Try Django in Codespaces",
-    "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
+    "image": "mcr.microsoft.com/vscode/devcontainers/python:3",
     "customizations": {
         "vscode": {
             "extensions": [
