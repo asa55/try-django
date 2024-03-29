@@ -1,0 +1,13 @@
+{
+    "name": "Try Django in Codespaces",
+    "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "GitHub.copilot",
+                "bmd.vscode-django"
+            ]
+        }
+    },
+    "postCreateCommand": "python -m pip install Django"
+}
